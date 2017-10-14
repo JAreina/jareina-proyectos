@@ -2,15 +2,18 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { SliderComponent } from './componentes/slider/slider.component';
+import { SliderProyectosComponent } from './componentes/slider-proyectos/slider-proyectos.component';
+import { ProyectosRealizadosComponent } from './componentes/proyectos-realizados/proyectos-realizados.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SliderComponent
+    SliderProyectosComponent,
+    ProyectosRealizadosComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

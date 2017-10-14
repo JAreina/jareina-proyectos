@@ -1,1 +1,30 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Anton|Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Anton|Open+Sans+Condensed:300|Volkhov:700');
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC|Monoton');
+/*font-family: 'Anton', sans-serif;
+font-family: 'Volkhov', serif;
+font-family: 'Monoton', cursive;*/
+body{
+  font-size: 15pt;
+  font-family: 'Open Sans Condensed', sans-serif;
+  
+}
+
+.animated {
+  animation-duration: 2s;
+  animation-fill-mode: both;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}

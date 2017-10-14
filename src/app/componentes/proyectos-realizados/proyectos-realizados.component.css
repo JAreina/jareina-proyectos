@@ -1,0 +1,46 @@
+.cabeceraProyectos{
+    background-color: #006f8a;
+    color:#fff;
+    padding:10px;
+    height: 280px;
+    font-family: 'Anton', sans-serif;
+    font-size: bolder;
+}
+.de{
+    margin-left: 33px;
+     margin-top:66px;
+     color:#ffbc49;
+}
+
+.boton{
+    margin-bottom:4%;
+    background-color: #ffbc49;
+    color:#006f8a;
+}
+.boton:hover{
+    background-color:#006f8a;
+    color:#ffbc49;
+}
+
+.caja{
+
+    height: 400px;
+}
+
+.descripcion{
+     padding:10px;
+    text-align: center;
+}
+
+
+@media screen and (max-width:360px) {
+    .cabeceraProyectos{
+    
+        height: 400px;
+    }
+    .de{
+        margin-top:10px;
+        margin-left: 0px;
+        
+    }
+}

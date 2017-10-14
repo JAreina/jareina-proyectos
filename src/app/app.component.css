@@ -1,4 +1,4 @@
-.container{
-    background-color: gold;
-    height: 400px;
+.container-fluid{
+    background-color: rgba(9, 109, 104, 0.02);
+    height: 800px;
 }
